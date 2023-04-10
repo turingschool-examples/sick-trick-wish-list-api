@@ -24,7 +24,7 @@ This app is the back-end server for the Mod 3 FE mid-mod.
 | url | verb | options | sample response |
 | ----|------|---------|---------------- |
 | `http://localhost:3001/api/v1/tricks` | GET | not needed | Array of all existing tricks: `[{ stance: 'regular', name: 'kickflip', obstacle: 'flat ground', tutorial: 'www.learn2skate.com', id: 1}]` |
-| `http://localhost:3001/api/v1/tricks` | POST | `{ stance: <String>, name: <String>, obstacle: <String>', tutorial: <String>}` | New birthday: `{stance: 'switch', name: 'heelflip', obstacle: 'flat ground', tutorial: 'www.learn2skate.com', id: 2}` |
+| `http://localhost:3001/api/v1/tricks` | POST | `{ stance: <String>, name: <String>, obstacle: <String>', tutorial: <String>}` | New trick: `{stance: 'switch', name: 'heelflip', obstacle: 'flat ground', tutorial: 'www.learn2skate.com', id: 2}` |
 | `http://localhost:3001/api/v1/tricks/:id` | DELETE | not needed | Array of all remaining tricks: `[{ stance: 'regular', name: 'kickflip', obstacle: 'flat ground', tutorial: 'www.learn2skate.com', id: 1}]` |
 
 
